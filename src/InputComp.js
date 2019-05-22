@@ -22,7 +22,7 @@ class InputComp extends Component {
   render() {
     return (
       <div className="inputComp">
-        <input placeholder="Title It!" onChange={this.updateWord}></input> 
+        <input className="w3-border w3-hover-red" placeholder="Title It!" onChange={this.updateWord}></input> 
         <button onClick={this.submitWord}>TITLE</button>
       </div>
     );

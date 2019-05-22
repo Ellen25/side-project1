@@ -10,14 +10,29 @@
 .box {
   /* width: 300px; */
   /* height: 80px; */
-  background-color: red;
+  background-color: brown;
   margin: 10px;
 }
+
+.box2 {
+  background-color: brown;
+  margin: 10px;
+  height: 60px;
+}
+
 
 #word {
   color: white;
   font-family: Impact, Charcoal, sans-serif;
   font-size: 80px;
+  text-align: center;
+  margin: 0;
+}
+
+#subtitle {
+  color: white;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 40px;
   text-align: center;
   margin: 0;
 }
@@ -35,23 +50,29 @@ img {
   display: flex;
 }
 
-.leftPart {
-  background-color: #b5b8bc;
-  width: 200px;
-}
 
 .headlines {
   margin-top: 50px;
 }
 
 .rightPart {
-  margin-left: 100px;
   margin-top: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 
 
 /* whole part */
 body {
-  background-color: #dcdfe2;
+  background-color: black;
+}
+
+h3 {
+  color:red;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.container{
+  width: 2000px;
 }
